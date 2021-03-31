@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+; Setup context menu item for click on right panel:
+[HKEY_CURRENT_USER\Software\Classes\directory\Background\shell\DownloadViaYoutubeDl]
+@="&Download via YoutubeDL"
+"Icon"="%SystemRoot%\\System32\\shell32.dll,71"
+
+[HKEY_CURRENT_USER\Software\Classes\directory\Background\shell\DownloadViaYoutubeDl\command]
+@="C:\\YoutubeDlContextMenu\\Stuff\\YoutubeDlPrompt.bat \"%V\""
+
+; Optional: specify an icon for the item:   
+; HKEY_CURRENT_USER\Software\Classes\directory\Background\shell\MenuItemNameBackground]
+;"icon"="C:\\yourpath\\appicon.ico"
+
+; Optional: specify a position in the menu
+; HKEY_CURRENT_USER\Software\Classes\directory\Background\shell\MenuItemNameBackground]
+;"position"="Bottom"
+
+; -------------------------------------------------------------------------------------
+
+; Setup context menu item for click on folders tree item:
+[HKEY_CURRENT_USER\Software\Classes\directory\shell\DownloadViaYoutubeDl]
+@="&Download via YoutubeDL"
+"Icon"="%SystemRoot%\\System32\\shell32.dll,71"
+
+[HKEY_CURRENT_USER\Software\Classes\directory\shell\DownloadViaYoutubeDl\command]
+@="C:\\YoutubeDlContextMenu\\Stuff\\YoutubeDlPrompt.bat \"%V\""
+
+; Optional: specify an icon for the item:   
+; [HKEY_CURRENT_USER\Software\Classes\directory\shell\MenuItemNamePanel]
+;"icon"="C:\\yourpath\\appicon.ico"
+
+; Optional: specify a position in the menu
+; [HKEY_CURRENT_USER\Software\Classes\directory\shell\MenuItemNamePanel]
+;"position"="Top"
