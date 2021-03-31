@@ -4,7 +4,8 @@ A registry edit/batch program to add Youtube Downloader entry into File Explorer
 ## How to setup
 
 #### Getting the repository downloaded
-If you have git installed, you can clone the repo using `git clone https://github.com/sudotman/youtube-dl-contextmenu`
+If you have git installed, you can clone the repo using 
+`git clone https://github.com/sudotman/youtube-dl-contextmenu`
 	**or**
 You can click on Download Zip button above the readme.
 
