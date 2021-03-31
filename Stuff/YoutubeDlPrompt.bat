@@ -1,6 +1,7 @@
 :copy paste the path into the command prompt and transfer data to a location that you can edit.
 
 @ECHO OFF
+SET PATH=%PATH%;c:\youtube-dl-contextmenu\Stuff
 SET /P link=Enter YouTube link: 
 set link=%link:"=%
 :: %command: =_% example to replace all spaces in command with underscores
