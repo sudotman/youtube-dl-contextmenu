@@ -10,7 +10,7 @@ If you have git installed, you can clone the repo using
 
 	**or**
 
-You can click on Download Zip button above the readme.
+You can click on Code and then Download Zip button above the readme.
 
 #### Windows setup
 Extract the zip file into 
