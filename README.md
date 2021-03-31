@@ -14,10 +14,10 @@ You should be seeing 'AddYoutubeDl.reg' in 'C:/YoutubeDlContextMenu' with a fold
 
 Double click on AddYoutubeDl.reg and Click yes to allow changes to the registry.
 
-#### Usage
+### Usage
 Right click anywhere in a folder where you wanna store the video and click on 'Download via YoutubeDL'
 
-#### Notes
+### Notes
 The registry edit just adds a entry in [HKEY_CURRENT_USER\Software\Classes\directory\Background\shell\DownloadViaYoutubeDl] 
 
 FFMpeg is included with it to allow seamless setup for first time users.
