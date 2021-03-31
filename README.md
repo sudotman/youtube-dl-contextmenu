@@ -11,6 +11,7 @@ You can click on Download Zip button above the readme.
 #### Windows setup
 Extract the zip file into 
 >C:/YoutubeDlContextMenu. 
+
 You should be seeing `AddYoutubeDl.reg` in `C:/YoutubeDlContextMenu` with a folder named 'Stuff' inside of it.
 
 Double click on AddYoutubeDl.reg and Click yes to allow changes to the registry.
